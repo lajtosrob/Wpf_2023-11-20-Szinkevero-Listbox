@@ -116,8 +116,8 @@ namespace Wpf_2023_11_20_Szinkevero_Listbox
                 string selectedItem = lbSzinLista.SelectedValue.ToString();
 
                 sliRed.Value = Convert.ToInt16(selectedItem.Split(";")[0]);
-                sliRed.Value = Convert.ToDouble(selectedItem.Split(";")[1]);
-                sliRed.Value = Convert.ToDouble(selectedItem.Split(';')[2]);
+                sliGreen.Value = Convert.ToInt16(selectedItem.Split(";")[1]);
+                sliBlue.Value = Convert.ToInt16(selectedItem.Split(';')[2]);
 
             }
         }
